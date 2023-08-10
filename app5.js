@@ -25,6 +25,7 @@
 //アニメーションを追加する
 
 //上から下へスライドさせる
+//box1が最初は非表示になるように、app.cssファイルにdisplay: none;を追加
 
 $(function(){
   $('.box1').slideDown();
