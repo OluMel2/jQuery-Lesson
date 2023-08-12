@@ -27,6 +27,14 @@
 //上から下へスライドさせる
 //box1が最初は非表示になるように、app.cssファイルにdisplay: none;を追加
 
+//$(function(){
+//  $('.box1').slideDown();
+//});
+
+
+//下から上へスライドさせる
+//この場合、表示されている要素を隠すアニメーションになるので、app.cssファイル内のdisplay: none;の記述は不要です。
+
 $(function(){
-  $('.box1').slideDown();
+  $('.box1').slideUp();
 });
