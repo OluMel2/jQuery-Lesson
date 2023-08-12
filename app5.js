@@ -35,6 +35,19 @@
 //下から上へスライドさせる
 //この場合、表示されている要素を隠すアニメーションになるので、app.cssファイル内のdisplay: none;の記述は不要です。
 
+//$(function(){
+//  $('.box1').slideUp();
+//});
+
+
+
+//要素を表示・非表示する
+
+
+//非表示の要素をjQueryで表示させる
+//box1が最初は非表示になるように、app.cssファイルにdisplay: none;を追加
+//変化をわかりやすくするために、box1の背景色を青色に設定
 $(function(){
-  $('.box1').slideUp();
+  $('.box1').show();
+  $('.box1').css({'background-color': '#0000FF'});
 });
