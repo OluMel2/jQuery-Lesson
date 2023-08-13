@@ -47,7 +47,15 @@
 //非表示の要素をjQueryで表示させる
 //box1が最初は非表示になるように、app.cssファイルにdisplay: none;を追加
 //変化をわかりやすくするために、box1の背景色を青色に設定
+//$(function(){
+//  $('.box1').show();
+//  $('.box1').css({'background-color': '#0000FF'});
+//});
+
+
+//表示されている要素をjQueryで非表示にする
 $(function(){
-  $('.box1').show();
-  $('.box1').css({'background-color': '#0000FF'});
+  $('.box1').hide();
 });
+
+//slideDown();、.slideUp();、.show();、.hide();の4つを使えるようになると、さまざまなスタイルに応用できる。
